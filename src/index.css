@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(2, 2, 69);
+}
+.hero{
+  height: 100vh;
+  display:flex;
+  flex-direction:row;
+  color:white;
+  width:100%;
+}
+.hero> div{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color: rgb(175, 175, 219);
+  width:50%;
+  height:100%;
+}
+.projects{
+  height:140vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background-color:rgb(175, 175, 219);
+}
+.navbar{
+  background-color: rgb(190, 190, 233);
+  height: 50px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:10%
+}
+.navbar>a{
+  text-decoration:none;
+  color:white;
+  font-size:25px;
+  padding: 10px;
+}
+nav{
+  color:white;
+  font-size:25px;
+}
+.marquee {
+  overflow: hidden;
+  height: 100px;
+  margin-top: 50px;
+  
+}
+
+.marquee-track {
+  display: flex;
+  gap: 14rem;
+  width: max-content;
+  animation: scroll 8s linear infinite;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+.changing-text::after {
+  content: "Software Developer";
+  animation: changeText 6s infinite;
+}
+
+@keyframes changeText {
+  0%, 30% {
+    content: "Software Developer";
+    color: black;
+  }
+
+  33%, 63% {
+    content: "Blockchain Developer";
+    color: red;
+  }
+
+  66%, 100% {
+    content: "AI Developer";
+    color: green
+  }
+}
+
+.projects > div {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  gap:rem;
+}
+
+.projects> div>p{
+  display:inline-block;
+  position:relative;
+  font-size: 30px;
+  top:50%;
+
+}
+.projects> div>img{
+  border-radius: 20%
+
+}
+.project-2{
+  margin-top:4rem;
+}
+
