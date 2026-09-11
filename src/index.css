@@ -112,7 +112,7 @@ nav{
   top:50%;
 
 }
-.projects> div>img{
+.projects> div>a>img{
   border-radius: 20%
 
 }
@@ -127,3 +127,10 @@ nav{
   margin-top:2rem;
 }
 
+.image {
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
