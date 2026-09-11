@@ -11,7 +11,7 @@ const Hero = () => {
           I love learning new technologies, solving challenging problems, and continuously improving my craft.
         </p>
         <div className="icons">
-          <a href="https://github.com/vasanthakumar-23/"></a><img src="/github.png" height={25} width={25} alt="" />
+          <a href="https://github.com/vasanthakumar-23"><img src="/github.png" height={25} width={25} alt="" /></a>
           <a href="https://leetcode.com/u/user3436dk/"><img src="/leetcode.png" alt="" height={25} width={25} /></a> 
           <a href="https://www.linkedin.com/in/vasanthakumar-k-9aa910229/"><img src="/linkedin.png" height={25} width={25} alt="" /></a>
         </div>
