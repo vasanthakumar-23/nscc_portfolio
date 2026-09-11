@@ -119,4 +119,11 @@ nav{
 .project-2{
   margin-top:4rem;
 }
+.icons{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:3rem;
+  margin-top:2rem;
+}
 

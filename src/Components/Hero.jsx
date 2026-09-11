@@ -6,10 +6,15 @@ const Hero = () => {
       <div>
         <h2 style={{ fontSize: "60px", letterSpacing: "4px" }}>I'm Vasanthakumar</h2>
         <p className="changing-text" style={{ fontSize: "30px", letterSpacing: "4px" }} ></p>
-        <p style={{width:"70%",marginTop:"10%",letterSpacing:"2px",fontSize:"20px"}}>I'm a passionate software developer focused on building modern, scalable, and user-friendly applications.
+        <p style={{ width: "70%", marginTop: "10%", letterSpacing: "2px", fontSize: "20px" }}>I'm a passionate software developer focused on building modern, scalable, and user-friendly applications.
           I work across web development, blockchain, and AI to turn ideas into practical digital solutions.
           I love learning new technologies, solving challenging problems, and continuously improving my craft.
         </p>
+        <div className="icons">
+          <a href="https://github.com/vasanthakumar-23/"></a><img src="/github.png" height={25} width={25} alt="" />
+          <a href="https://leetcode.com/u/user3436dk/"><img src="/leetcode.png" alt="" height={25} width={25} /></a> 
+          <a href="https://www.linkedin.com/in/vasanthakumar-k-9aa910229/"><img src="/linkedin.png" height={25} width={25} alt="" /></a>
+        </div>
       </div>
       <div><img height={300} width={300} src="/image.webp" style={{ borderRadius: "30px" }} /></div>
     </div>
