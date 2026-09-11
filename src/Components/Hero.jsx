@@ -1,5 +1,5 @@
 import "../index.css"
-import Image from "../../public/image.webp"
+
 const Hero = () => {
   return (
     <div className="hero bebas-neue-regular">
@@ -11,7 +11,7 @@ const Hero = () => {
           I love learning new technologies, solving challenging problems, and continuously improving my craft.
         </p>
       </div>
-      <div><img height={300} width={300} src={Image} style={{ borderRadius: "30px" }} /></div>
+      <div><img height={300} width={300} src="/image.webp" style={{ borderRadius: "30px" }} /></div>
     </div>
   )
 }
