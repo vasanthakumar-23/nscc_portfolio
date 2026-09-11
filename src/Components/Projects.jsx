@@ -1,5 +1,5 @@
-import Tution from "../../public/kratos.png";
-import Kratos from "../../public/kratos2.png";
+import Tution from "../../public/tution.png";
+import Kratos from "../../public/kratos.png";
 
 
 const Projects = () => {
